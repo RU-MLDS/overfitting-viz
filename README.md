@@ -68,14 +68,3 @@ on this repository or email the author.
    is replaced by the name of the executable you downloaded.
    You may need to change the permissions on the file to make it executable (e.g., `chmod +x app`).
    You should find a guide for doing this on your operating system.
-
-## Running the App as a Docker Image
-### Prerequisites
-Some basic knowledge of Docker will be useful for this section.
-We assume you have installed Docker (this process differs from platform to platform).
-
-This approach will make editing the code less convenient, so it is recommended mostly as a quick way to play around
-with the program. Good for demos, etc.
-
-1. `docker pull ghcr.io/whiskeycharlie/overfitting-viz:master`
-2. `docker run --rm -p 2522:2522 overfitting-viz:master`

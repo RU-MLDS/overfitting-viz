@@ -18,7 +18,7 @@ EXTERNAL_CSS = [
 ]
 MIN_NUM_POINTS_SLIDER, DEFAULT_NUM_POINTS_SLIDER, MAX_NUM_POINTS_SLIDER = 10, 30, 300
 APP_TITLE = 'Vizibly'
-GITHUB_URL = 'https://github.com/WhiskeyCharlie/overfitting-viz'
+GITHUB_URL = 'https://github.com/RU-MLDS/overfitting-viz'
 
 
 def add_layout_to_app(app) -> None:
